@@ -72,3 +72,4 @@ static.zip
 
 logs.txt
 .env
+.tmp/
