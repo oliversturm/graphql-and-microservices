@@ -59,7 +59,7 @@ typings/
 
 .next
 
-dist
+demo/**/dist
 
 *.db
 *.db-journal
