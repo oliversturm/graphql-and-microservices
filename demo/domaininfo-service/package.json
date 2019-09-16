@@ -1,0 +1,13 @@
+{
+  "name": "domaininfo-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "p-retry": "^4.1.0",
+    "whois": "^2.10.1"
+  }
+}

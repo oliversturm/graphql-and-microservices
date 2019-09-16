@@ -1,0 +1,10 @@
+type Country {
+  name: String!
+  areaKM2: Int!
+  population: Int!
+  areaPerPerson: Float!
+}
+
+type Query {
+  countries(searchNames: [String!]): [Country!]!
+}

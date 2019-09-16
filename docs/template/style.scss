@@ -1,0 +1,513 @@
+// Theme
+// ---------------------------------------------------------------------------
+
+$primary: #fff;
+$secondary: #ff8800;
+$tertiary: #00d8f5;
+$light: #fff;
+$dark: rgb(30, 20, 31);
+$text-dark: #272727;
+$text-light: $light;
+$text-bottom: #bbb;
+$title-color: #ffbf00;
+$url-color: #ffbf00;
+$code-background: #373737;
+$code-color: $text-light;
+$img-background: $dark;
+$img-background-light: rgb(250, 250, 250);
+$overlay: rgba(20, 108, 114, 0.97);
+$overlay-color: #ffbf00;
+$font-size: 28px;
+$font-size-impact: 96px;
+$font: Livvic, Helvetica, Arial, sans-serif;
+$font-title: 'Livvic', Arial, Helvetica, sans-serif;
+$font-fixed: 'Fira Code', 'Consolas', 'Courier New', 'Lucida Console', Monaco,
+  monospace;
+$margin: 20px;
+$iframe-scale: 1.5;
+
+// Oli extra
+
+.title-logo {
+  margin-top: 80px;
+  img {
+    background: transparent;
+  }
+  img#devexpress {
+    opacity: 0.7;
+  }
+}
+
+.title-oli {
+  margin-top: 150px;
+}
+
+.svg {
+  position: absolute;
+  top: 100px;
+  left: 60px;
+  right: 60px;
+  bottom: 60px;
+  background-color: $img-background;
+  text-align: center;
+  img {
+    height: -webkit-fill-available;
+    height: -moz-available;
+    max-height: 520px;
+    object-fit: contain;
+    margin: 0;
+  }
+  p {
+    margin: 0;
+  }
+}
+.svg-light {
+  position: absolute;
+  top: 100px;
+  left: 60px;
+  right: 60px;
+  bottom: 60px;
+  background-color: $img-background-light;
+  text-align: center;
+  img {
+    height: -webkit-fill-available;
+    height: -moz-available;
+    max-height: 520px;
+    object-fit: contain;
+    margin: 0;
+  }
+  p {
+    margin: 0;
+  }
+}
+
+em {
+  color: $secondary;
+}
+.svg-width {
+  position: absolute;
+  top: 100px;
+  left: 60px;
+  right: 60px;
+  bottom: 60px;
+  background-color: $img-background;
+  text-align: center;
+  img {
+    width: -webkit-fill-available;
+    width: -moz-available;
+    max-width: 1080px;
+    object-fit: contain;
+    margin: 0;
+  }
+  p {
+    margin: 0;
+  }
+}
+.svg-light-width {
+  position: absolute;
+  top: 100px;
+  left: 60px;
+  right: 60px;
+  bottom: 60px;
+  background-color: $img-background-light;
+  text-align: center;
+  img {
+    width: -webkit-fill-available;
+    width: -moz-available;
+    max-width: 1080px;
+    object-fit: contain;
+    margin: 0;
+  }
+  p {
+    margin: 0;
+  }
+}
+
+em {
+  color: $secondary;
+}
+
+strong {
+  color: $tertiary;
+}
+
+// CSS Base
+// ---------------------------------------------------------------------------
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: $font;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 $margin 0;
+  font-family: $font-title;
+  //font-variant: small-caps;
+  color: $title-color;
+}
+li {
+  margin-bottom: 0.25em;
+}
+pre,
+code {
+  text-align: left;
+  font-family: $font-fixed;
+  color: $code-color !important;
+  background: $code-background !important;
+  margin: 10px;
+  padding: 5px;
+}
+
+pre {
+  border-radius: 15px;
+  display: block;
+  padding: 0;
+}
+
+// So I can use
+// ```text
+// for no highlighting, but with same
+// indentation etc.
+code.text {
+  display: block;
+  padding: 10px !important;
+}
+
+code.linuxprompt {
+  padding-top: 200px !important;
+  font-size: 2em !important;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: $url-color;
+}
+img {
+  vertical-align: inherit;
+}
+blockquote {
+  border-left: 10px solid;
+  padding: 10px 0.5em;
+  color: $tertiary;
+  background: $code-background;
+  text-align: left;
+  margin: 1.5em 0.5em 1.5em 0.5em;
+  & > p {
+    margin: 0;
+  }
+}
+
+li {
+  margin-bottom: 0.5em;
+  margin-top: 0.2em;
+}
+
+// Remark base
+// ---------------------------------------------------------------------------
+
+.remark-code {
+  font-size: 0.9em;
+}
+.remark-container {
+  background: $dark;
+}
+.remark-slide-scaler {
+  box-shadow: none;
+}
+.remark-notes {
+  font-size: 1.5em;
+}
+
+.remark-slide-content {
+  font-size: $font-size;
+  padding: 1em 2em;
+  color: $text-light;
+  background-size: cover;
+  background: $dark;
+}
+
+.remark-slide-number {
+  color: $text-bottom;
+  right: 1em;
+  opacity: 0.6;
+  font-size: 18px;
+  z-index: 2;
+  .impact &,
+  .no-counter & {
+    display: none;
+  }
+}
+
+// Additions
+.impact {
+  background-color: $dark;
+  vertical-align: middle;
+  text-align: center;
+  h1 {
+    font-size: $font-size-impact;
+  }
+}
+
+.full {
+  &iframe {
+    height: calc(#{100% / $iframe-scale} - 1.2em);
+    width: 100% / $iframe-scale;
+    transform: scale($iframe-scale);
+    transform-origin: 0 0;
+    border: 0;
+  }
+}
+
+.bottom-bar {
+  background-color: $dark;
+  color: $text-bottom;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 18px;
+  padding: 0.8em;
+  text-align: left;
+  z-index: 1;
+  p {
+    margin: 0;
+  }
+  .impact &,
+  .full & {
+    display: none;
+  }
+}
+
+// Utilities
+// ---------------------------------------------------------------------------
+
+// Positioning
+.side-layer {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 0 2em;
+}
+.middle {
+  &,
+  & img,
+  & span {
+    vertical-align: middle;
+  }
+}
+.top {
+  vertical-align: top;
+}
+.bottom {
+  vertical-align: bottom;
+}
+.inline-block {
+  p,
+  ul,
+  ol,
+  blockquote {
+    display: inline-block;
+    text-align: left;
+  }
+}
+.no-margin {
+  &,
+  & > p,
+  & > pre,
+  & > ul,
+  & > ol {
+    margin: 0;
+  }
+}
+.no-padding {
+  padding: 0;
+}
+.space-left {
+  padding-left: 1em;
+}
+.space-right {
+  padding-right: 1em;
+}
+
+// Images
+.responsive > img {
+  width: 100%;
+  height: auto;
+}
+.contain {
+  background-size: contain;
+}
+
+// Can do this:
+// .overlay[
+// some text
+// ]
+
+.overlay {
+  position: absolute;
+  top: 130px;
+  bottom: 120px;
+  left: 100px;
+  right: 100px;
+  color: $overlay-color;
+  background-color: $overlay;
+  border-radius: 15px;
+  padding: 15px 40px;
+  font-weight: bold;
+  font-size: x-large;
+  em {
+    color: $secondary;
+  }
+  > p {
+    margin: 5 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-60%);
+  }
+  h1 {
+    color: $secondary;
+  }
+}
+
+// Can do this:
+// .overlay[.overlay-content[
+
+// # By the way
+
+// Linus doesn't mention it, but his new OS was going to be called _Freax_ at this point.
+
+// Second paragraph.
+
+// Third paragraph.
+// ]]
+
+.overlay-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-60%);
+  p {
+    margin: 5 0;
+  }
+}
+
+// Text
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.justify {
+  text-align: justify;
+}
+.primary {
+  color: $primary;
+}
+.alt {
+  color: $secondary;
+}
+.em {
+  color: $tertiary;
+}
+.eem {
+  color: #f00;
+}
+.thin {
+  font-weight: 200;
+}
+.huge {
+  font-size: 2em;
+}
+.big {
+  font-size: 1.5em;
+}
+.small {
+  font-size: 0.8em;
+}
+.dark-bg {
+  background-color: $dark;
+}
+.alt-bg {
+  background-color: $secondary;
+}
+
+// Simple 12-columns grid system
+.row {
+  width: 100%;
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  &.table {
+    display: table;
+  }
+  &.table [class^='col-'] {
+    float: none;
+    display: table-cell;
+    vertical-align: inherit;
+  }
+}
+
+[class^='col-'] {
+  float: left;
+  &.inline-block {
+    float: none;
+    display: inline-block;
+  }
+}
+
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    width: 100% / 12 * $i;
+  }
+}
+
+// Animations
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animation-fade {
+  animation-duration: 300ms;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+  .remark-visible & {
+    animation-name: fadeIn;
+  }
+}
+
+// Fix PDF print with chrome
+// ---------------------------------------------------------------------------
+
+@page {
+  // 908px 681px for 4/3 slides
+  size: 1210px 681px;
+  margin: 0;
+}
+
+@media print {
+  .remark-slide-scaler {
+    width: 100% !important;
+    height: 100% !important;
+    transform: scale(1) !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+}

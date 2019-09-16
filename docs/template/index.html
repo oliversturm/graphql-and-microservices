@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Code&display=swap" rel="stylesheet">
+  <title>{{title}}</title>
+  {{{style}}}
+  <script src="remark.min.js"></script>
+  <script>
+    function create() {
+      return remark.create({
+        {{{ source }}},
+    //ratio: '4:3',
+    ratio: '16:9',
+      highlightLines: true,
+        countIncrementalSlides: false,
+          highlightStyle: 'monokai',
+            highlightSpans: true, smartyPants: true
+      });
+    }
+  </script>
+</head>
+
+<body onload="slideshow = create()">
+</body>
+
+</html>
