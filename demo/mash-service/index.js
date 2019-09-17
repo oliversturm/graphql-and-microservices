@@ -23,12 +23,9 @@ const fetchStories = (skip, take) =>
       console.error(`Fetch error: ${err}`);
     });
 
-const fetchDomainInfo = _.memoize(domain => {
-  console.log(`returning new fetch for ${domain}`);
-  return fetch(`http://localhost:3003/domaininfo?q=${domain}`).then(res =>
-    res.json()
-  );
-});
+const fetchDomainInfo = _.memoize(domain =>
+  fetch(`http://localhost:3003/domaininfo?q=${domain}`).then(res => res.json())
+);
 
 getDomain = url => extract(`http://${parse(url).hostname}`).domain;
 
