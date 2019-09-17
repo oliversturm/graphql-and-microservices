@@ -49,13 +49,19 @@ $iframe-scale: 1.5;
   right: 60px;
   bottom: 60px;
   background-color: $img-background;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
   img {
+    // This height setting should be unnecessary with the
+    // align-items setting above and the flex setting below.
+    // Firefox works fine like that, but Chrome only seems
+    // to be happy with this extra height setting - otherwise
+    // it appears to simply ignore flex-grow if align-items
+    // is set on the parent to center, flex-end or anything similar.
     height: -webkit-fill-available;
-    height: -moz-available;
-    max-height: 520px;
-    object-fit: contain;
-    margin: 0;
+    flex: auto;
   }
   p {
     margin: 0;
@@ -68,13 +74,19 @@ $iframe-scale: 1.5;
   right: 60px;
   bottom: 60px;
   background-color: $img-background-light;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
   img {
+    // This height setting should be unnecessary with the
+    // align-items setting above and the flex setting below.
+    // Firefox works fine like that, but Chrome only seems
+    // to be happy with this extra height setting - otherwise
+    // it appears to simply ignore flex-grow if align-items
+    // is set on the parent to center, flex-end or anything similar.
     height: -webkit-fill-available;
-    height: -moz-available;
-    max-height: 520px;
-    object-fit: contain;
-    margin: 0;
+    flex: auto;
   }
   p {
     margin: 0;
@@ -91,18 +103,28 @@ em {
   right: 60px;
   bottom: 60px;
   background-color: $img-background;
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
   img {
+    // This width setting should be unnecessary with the
+    // align-items setting above and the flex setting below.
+    // Firefox works fine like that, but Chrome only seems
+    // to be happy with this extra width setting - otherwise
+    // it appears to simply ignore flex-grow if align-items
+    // is set on the parent to center, flex-end or anything similar.
+    // Comment on the comment: I haven't actually tested in
+    // detail that the width is as necessary as the height
+    // setting.
     width: -webkit-fill-available;
-    width: -moz-available;
-    max-width: 1080px;
-    object-fit: contain;
-    margin: 0;
+    flex: auto;
   }
   p {
     margin: 0;
   }
 }
+
 .svg-light-width {
   position: absolute;
   top: 100px;
@@ -110,13 +132,22 @@ em {
   right: 60px;
   bottom: 60px;
   background-color: $img-background-light;
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
   img {
+    // This width setting should be unnecessary with the
+    // align-items setting above and the flex setting below.
+    // Firefox works fine like that, but Chrome only seems
+    // to be happy with this extra width setting - otherwise
+    // it appears to simply ignore flex-grow if align-items
+    // is set on the parent to center, flex-end or anything similar.
+    // Comment on the comment: I haven't actually tested in
+    // detail that the width is as necessary as the height
+    // setting.
     width: -webkit-fill-available;
-    width: -moz-available;
-    max-width: 1080px;
-    object-fit: contain;
-    margin: 0;
+    flex: auto;
   }
   p {
     margin: 0;
