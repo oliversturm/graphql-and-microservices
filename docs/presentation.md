@@ -21,9 +21,7 @@ class: impact
 Oliver Sturm &bull; @olivers &bull; oliver@oliversturm.com
 ]
 
-.title-logo[
-<img src="template/devexpress.png" id="devexpress" alt="DevExpress">
-]
+.title-logo[<img src="template/devexpress.png" id="devexpress" alt="DevExpress">]
 
 ---
 
@@ -46,9 +44,7 @@ Oliver Sturm &bull; @olivers &bull; oliver@oliversturm.com
 
 ## GraphQL
 
-.svg-light[
-![](graphql-basics.svg)
-]
+.svg-light[![](graphql-basics.svg)]
 
 ---
 
@@ -60,25 +56,19 @@ class: impact
 
 ## Basic Service Structure
 
-.svg-light[
-![](service-structure-basic.svg)
-]
+.svg-light[![](service-structure-basic.svg)]
 
 ---
 
 ## Microservices Structure
 
-.svg-light[
-![](microservices-logical.svg)
-]
+.svg-light[![](microservices-logical.svg)]
 
 ---
 
 ## CQRS/ES Structure
 
-.svg-light[
-![](crqs-es.svg)
-]
+.svg-light[![](crqs-es.svg)]
 
 ---
 
@@ -100,9 +90,7 @@ There are two integration options.
 
 ## GraphQL Endpoint In The Read Model
 
-.svg-light[
-![](graphql endpoint in read model.svg)
-]
+.svg-light[![](graphql endpoint in read model.svg)]
 
 ---
 
@@ -114,9 +102,7 @@ class: impact
 
 ## Proxy/Facade/Mash GraphQL Service
 
-.svg-light[
-![](frontend graphql service.svg)
-]
+.svg-light[![](frontend graphql service.svg)]
 
 ---
 
