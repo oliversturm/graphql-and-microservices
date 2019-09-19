@@ -27,18 +27,17 @@ const fetchDomainInfo = _.memoize(domain =>
   fetch(`http://localhost:3003/domaininfo?q=${domain}`).then(res => res.json())
 );
 
-getDomain = url => extract(`http://${parse(url).hostname}`).domain;
+const getDomain = url => extract(`http://${parse(url).hostname}`).domain;
 
 const domainInfoHelpers = url => {
   if (!url)
     return { mailserver: 'n/a', domainCreationDate: 'n/a', domain: 'n/a' };
   const domain = getDomain(url);
-  const domainInfo = url => fetchDomainInfo(domain);
   return {
     mailserver: () =>
-      domainInfo(url).then(({ primaryMx }) => primaryMx || 'n/a'),
+      fetchDomainInfo(domain).then(({ primaryMx }) => primaryMx || 'n/a'),
     domainCreationDate: () =>
-      domainInfo(url).then(
+      fetchDomainInfo(domain).then(
         ({ whoisInfo }) =>
           whoisInfo['Creation Date'] || whoisInfo['Registered on'] || 'n/a'
       ),
