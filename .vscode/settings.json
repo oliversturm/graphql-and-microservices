@@ -1,0 +1,9 @@
+{
+  "eslint.packageManager": "yarn",
+  "eslint.workingDirectories": [
+    "demo/demo-express-graphql",
+    "demo/domaininfo-service",
+    "demo/hackernews",
+    "demo/mash-service"
+  ]
+}

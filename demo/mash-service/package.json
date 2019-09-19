@@ -11,5 +11,8 @@
     "lodash": "^4.17.15",
     "morgan": "^1.9.1",
     "tld-extract": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0"
   }
 }

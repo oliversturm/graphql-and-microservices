@@ -10,5 +10,8 @@
     "graphql-import": "^0.7.1",
     "graphql-request": "^1.8.2",
     "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0"
   }
 }
