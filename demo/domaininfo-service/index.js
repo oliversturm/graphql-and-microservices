@@ -13,7 +13,7 @@ const lookup = domain =>
   });
 
 const splitLine = line => {
-  const [_, name, content] = line.match(/\s*([^:]+):\s*(.*)\s*/);
+  const [, name, content] = line.match(/\s*([^:]+):\s*(.*)\s*/);
   return { [name]: content };
 };
 
