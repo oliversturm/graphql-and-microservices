@@ -45,6 +45,26 @@ const root = {
 */
 
 const app = express();
+
+// For some reason, the GraphiQL thing doesn't work in
+// Firefox due to some CSP violation. The error message sounds
+// to me as if Firefox wants to disallow inline scripts by
+// default - obviously Chrome has no problems with this.
+// So I tried to configure a special CSP for this
+// demo, and this is included as intended with the following
+// code. However, Firefox keeps showing the same error.
+// So for this demo - don't use Firefox. I'm sure there's
+// an explanation, but I won't hunt it down right now.
+
+// const csp = require('helmet-csp');
+// app.use(
+//   csp({
+//     directives: {
+//       scriptSrc: ["'self'", "'unsafe-inline'"]
+//     }
+//   })
+// );
+
 app.use(
   '/graphql',
   graphqlHttp({

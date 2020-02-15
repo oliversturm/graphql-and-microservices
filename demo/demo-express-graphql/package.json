@@ -9,6 +9,7 @@
     "graphql": "^14.5.4",
     "graphql-import": "^0.7.1",
     "graphql-request": "^1.8.2",
+    "helmet-csp": "^2.9.4",
     "lodash": "^4.17.15"
   },
   "devDependencies": {

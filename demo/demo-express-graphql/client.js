@@ -7,7 +7,7 @@ request(
       countries(searchNames: ["island"]) {
         name
         areaKM2
-        areaPerPerson
+        # areaPerPerson
       }
     }
   `
