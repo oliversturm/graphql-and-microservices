@@ -18,7 +18,7 @@ class: impact
 ## {{subtitle}}
 
 .title-oli[
-Oliver Sturm &bull; @olivers &bull; oliver@oliversturm.com
+Oliver Sturm &bull; @olivers[@fosstodon.org] &bull; oliver@oliversturm.com
 ]
 
 .title-logo[<img src="template/devexpress.png" id="devexpress" alt="DevExpress">]
@@ -130,7 +130,7 @@ class: impact
 Please feel free to contact me about the content anytime.
 
 .title-oli[
-Oliver Sturm &bull; @olivers &bull; oliver@oliversturm.com
+Oliver Sturm &bull; @olivers[@fosstodon.org] &bull; oliver@oliversturm.com
 ]
 
 .title-logo[
