@@ -59,7 +59,6 @@ dist
 
 .vscode
 
-package-lock.json
 
 *.db
 *.db-journal
