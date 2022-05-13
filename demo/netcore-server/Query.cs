@@ -7,44 +7,41 @@ using System.Linq;
 
 namespace netcore_server
 {
-    public class Country
-    {
-        // Behold the stupidity of the C# 8.0 null value handling.
-        // https://praeclarum.org/2018/12/17/nullable-reference-types.html
-        // It requires me to make my code waste time by initializing 
-        // a value that doesn't need to be initialized.
-        // Let's hope at least the compiler realizes that this may be 
-        // unnecessary.
-        public string name { get; set; } = String.Empty;
-        public int areaKM2 { get; set; }
-        public int population { get; set; }
+  public class Country
+  {
+    public string name { get; set; } = String.Empty;
+    public int areaKM2 { get; set; }
+    public int population { get; set; }
 
-        // Calculated field
-        public float areaPerPerson { get; set; }
+    // Calculated field
+    public float areaPerPerson { get; set; }
+  }
+
+  public class Query
+  {
+    public Query()
+    {
+      countries = JsonSerializer.Deserialize<List<Country>>(json);
     }
 
-    public class Query
+    private readonly List<Country>? countries;
+
+    public List<Country>? Countries(string[]? searchNames) =>
+        CalcFields(searchNames != null && countries != null ?
+            countries.Where(
+                c => searchNames.Any(sn => c.name.Contains(
+                    sn, StringComparison.CurrentCultureIgnoreCase))).ToList()
+            : countries);
+
+    List<Country>? CalcFields(List<Country>? source)
     {
-        public Query() {
-            countries = JsonSerializer.Deserialize<List<Country>>(json);
-        }
+      if (source != null)
+        foreach (var c in source)
+          c.areaPerPerson = (float)c.areaKM2 / (float)c.population;
+      return source;
+    }
 
-        private List<Country> countries;
-        
-        public List<Country> Countries(string[]? searchNames) => 
-            CalcFields(searchNames != null ? 
-                countries.Where(
-                    c => searchNames.Any(sn => c.name.Contains(
-                        sn, StringComparison.CurrentCultureIgnoreCase))).ToList()
-                : countries);
-
-        List<Country> CalcFields(List<Country> source) {
-            foreach(var c in source) 
-                c.areaPerPerson = (float)c.areaKM2 / (float) c.population;
-            return source;
-        } 
-
-        private string json = @"
+    private string json = @"
         [{ ""name"":""American Samoa"",""areaKM2"":199,""population"":57880},
 { ""name"":""Afghanistan"",""areaKM2"":647500,""population"":29929000},
 { ""name"":""Andorra"",""areaKM2"":468,""population"":70550},
@@ -280,5 +277,5 @@ namespace netcore_server
 { ""name"":""Zimbabwe"",""areaKM2"":390580,""population"":12747000}
 ]
         ";
-    }
+  }
 }
