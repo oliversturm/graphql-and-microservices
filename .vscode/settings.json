@@ -5,5 +5,28 @@
     "demo/domaininfo-service",
     "demo/hackernews",
     "demo/mash-service"
-  ]
+  ],
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#d159e6",
+    "activityBar.background": "#d159e6",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#e2c93d",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#e7e7e799",
+    "panel.border": "#d159e6",
+    "sash.hoverBorder": "#d159e6",
+    "sideBar.border": "#d159e6",
+    "statusBar.background": "#c52ddf",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#d159e6",
+    "statusBarItem.remoteBackground": "#c52ddf",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "tab.activeBorder": "#d159e6",
+    "titleBar.activeBackground": "#c52ddf",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#c52ddf99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#c52ddf"
 }
