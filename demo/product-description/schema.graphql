@@ -1,0 +1,8 @@
+type ProductInfo {
+  description: String!
+  indicativePriceUsd: Float!
+}
+
+type Query {
+  info(name: String!): ProductInfo
+}
