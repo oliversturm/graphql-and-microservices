@@ -1,0 +1,12 @@
+type Order {
+  id: String!
+  text: String!
+  value: Float!
+  aiProductDescription: String
+  aiProductIndicativePriceUsd: Float
+}
+
+type Query {
+  orders: [Order!]
+  order(id: String!): Order
+}

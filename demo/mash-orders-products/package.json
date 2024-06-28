@@ -1,0 +1,27 @@
+{
+  "name": "mash-orders-products",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "graphiql": "ruru -SP -p 6001 -e http://localhost:6000/graphql"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@graphql-tools/graphql-file-loader": "^8.0.1",
+    "@graphql-tools/load": "^8.0.2",
+    "@graphql-tools/schema": "^10.0.4",
+    "express": "^4.19.2",
+    "graphql": "^15.9.0",
+    "graphql-http": "^1.22.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.2",
+    "ruru": "^2.0.0-beta.13"
+  },
+  "type": "module"
+}
