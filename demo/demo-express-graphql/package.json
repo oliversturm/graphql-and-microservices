@@ -9,6 +9,7 @@
     "graphiql": "ruru -SP -p 4001 -e http://localhost:4000/graphql"
   },
   "dependencies": {
+    "@apollo/client": "^3.10.8",
     "@graphql-tools/graphql-file-loader": "^8.0.1",
     "@graphql-tools/load": "^8.0.2",
     "@graphql-tools/schema": "^10.0.4",
@@ -16,7 +17,6 @@
     "express": "^4.19.2",
     "graphql": "^15.9.0",
     "graphql-http": "^1.22.1",
-    "graphql-request": "^7.1.0",
     "lodash": "^4.17.21"
   },
   "type": "module",
