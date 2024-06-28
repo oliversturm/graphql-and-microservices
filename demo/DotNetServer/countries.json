@@ -1,0 +1,1866 @@
+[
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86222"
+    },
+    "name": "American Samoa",
+    "areaKM2": 199,
+    "population": 57880
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86223"
+    },
+    "name": "Afghanistan",
+    "areaKM2": 647500,
+    "population": 29929000
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86224"
+    },
+    "name": "Andorra",
+    "areaKM2": 468,
+    "population": 70550
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86225"
+    },
+    "name": "Angola",
+    "areaKM2": 1246700,
+    "population": 11190800
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86226"
+    },
+    "name": "Anguilla",
+    "areaKM2": 102,
+    "population": 13250
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86227"
+    },
+    "name": "Antigua \u0026 Barbuda",
+    "areaKM2": 443,
+    "population": 68720
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86228"
+    },
+    "name": "Argentina",
+    "areaKM2": 2766890,
+    "population": 39537900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86229"
+    },
+    "name": "Algeria",
+    "areaKM2": 2381740,
+    "population": 32531900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8622a"
+    },
+    "name": "Australia",
+    "areaKM2": 7686850,
+    "population": 20090400
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8622b"
+    },
+    "name": "Aruba",
+    "areaKM2": 193,
+    "population": 71570
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8622c"
+    },
+    "name": "Austria",
+    "areaKM2": 83858,
+    "population": 8184700
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8622d"
+    },
+    "name": "Azerbaijan",
+    "areaKM2": 86600,
+    "population": 7912000
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8622e"
+    },
+    "name": "Bahamas",
+    "areaKM2": 13940,
+    "population": 301800
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8622f"
+    },
+    "name": "Bahrain",
+    "areaKM2": 665,
+    "population": 688300
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86230"
+    },
+    "name": "Bangladesh",
+    "areaKM2": 144000,
+    "population": 144319600
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86231"
+    },
+    "name": "Belarus",
+    "areaKM2": 207600,
+    "population": 10300500
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86232"
+    },
+    "name": "Belgium",
+    "areaKM2": 30510,
+    "population": 10364400
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86233"
+    },
+    "name": "Belize",
+    "areaKM2": 22966,
+    "population": 279500
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86234"
+    },
+    "name": "Benin",
+    "areaKM2": 112620,
+    "population": 7460000
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86235"
+    },
+    "name": "Bermuda",
+    "areaKM2": 53,
+    "population": 65370
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86236"
+    },
+    "name": "Armenia",
+    "areaKM2": 29800,
+    "population": 2982900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86237"
+    },
+    "name": "Bhutan",
+    "areaKM2": 47000,
+    "population": 2232300
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86238"
+    },
+    "name": "Barbados",
+    "areaKM2": 431,
+    "population": 279300
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86239"
+    },
+    "name": "Albania",
+    "areaKM2": 28748,
+    "population": 3563100
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8623a"
+    },
+    "name": "Bosnia \u0026 Herzegovina",
+    "areaKM2": 51129,
+    "population": 4025500
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8623b"
+    },
+    "name": "Brazil",
+    "areaKM2": 8511965,
+    "population": 186112800
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8623c"
+    },
+    "name": "British Virgin Islands",
+    "areaKM2": 153,
+    "population": 22640
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8623d"
+    },
+    "name": "Bulgaria",
+    "areaKM2": 110910,
+    "population": 7450300
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8623e"
+    },
+    "name": "Brunei",
+    "areaKM2": 5770,
+    "population": 372400
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8623f"
+    },
+    "name": "Burkina Faso",
+    "areaKM2": 274200,
+    "population": 13925300
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86240"
+    },
+    "name": "Burundi",
+    "areaKM2": 27830,
+    "population": 6370600
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86241"
+    },
+    "name": "Botswana",
+    "areaKM2": 600370,
+    "population": 1640100
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86242"
+    },
+    "name": "Cameroon",
+    "areaKM2": 475440,
+    "population": 16380000
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86243"
+    },
+    "name": "Canada",
+    "areaKM2": 9976140,
+    "population": 32805000
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86244"
+    },
+    "name": "Cape Verde",
+    "areaKM2": 4033,
+    "population": 418200
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86245"
+    },
+    "name": "Cayman Islands",
+    "areaKM2": 262,
+    "population": 44270
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86246"
+    },
+    "name": "Central African Republic",
+    "areaKM2": 622984,
+    "population": 3799900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86247"
+    },
+    "name": "Chad",
+    "areaKM2": 1284000,
+    "population": 9826400
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86248"
+    },
+    "name": "Chile",
+    "areaKM2": 756950,
+    "population": 15980900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86249"
+    },
+    "name": "Colombia",
+    "areaKM2": 1138910,
+    "population": 42954300
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8624a"
+    },
+    "name": "Comoros",
+    "areaKM2": 2170,
+    "population": 671200
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8624b"
+    },
+    "name": "Congo (Dem. Rep.)",
+    "areaKM2": 2345410,
+    "population": 60085800
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8624c"
+    },
+    "name": "Congo (Rep.)",
+    "areaKM2": 342000,
+    "population": 3039100
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8624d"
+    },
+    "name": "Bolivia",
+    "areaKM2": 1098580,
+    "population": 8857900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8624e"
+    },
+    "name": "Cook Islands",
+    "areaKM2": 240,
+    "population": 21390
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8624f"
+    },
+    "name": "Costa Rica",
+    "areaKM2": 51100,
+    "population": 4016200
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86250"
+    },
+    "name": "China",
+    "areaKM2": 9596960,
+    "population": 1306313800
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86251"
+    },
+    "name": "Cambodia",
+    "areaKM2": 181040,
+    "population": 13607100
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86252"
+    },
+    "name": "Croatia",
+    "areaKM2": 56542,
+    "population": 4495900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86253"
+    },
+    "name": "Czech Republic",
+    "areaKM2": 78866,
+    "population": 10241100
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86254"
+    },
+    "name": "Denmark",
+    "areaKM2": 43094,
+    "population": 5432300
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86255"
+    },
+    "name": "Cyprus",
+    "areaKM2": 9250,
+    "population": 780100
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86256"
+    },
+    "name": "Djibouti",
+    "areaKM2": 23000,
+    "population": 476700
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86257"
+    },
+    "name": "Dominica",
+    "areaKM2": 754,
+    "population": 69030
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86258"
+    },
+    "name": "Dominican Republic",
+    "areaKM2": 48730,
+    "population": 8950000
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86259"
+    },
+    "name": "Ecuador",
+    "areaKM2": 283560,
+    "population": 13363600
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8625a"
+    },
+    "name": "East Timor",
+    "areaKM2": 15007,
+    "population": 1040900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8625b"
+    },
+    "name": "Cuba",
+    "areaKM2": 110860,
+    "population": 11346700
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8625c"
+    },
+    "name": "Cote d'Ivoire",
+    "areaKM2": 322460,
+    "population": 17298000
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8625d"
+    },
+    "name": "Eritrea",
+    "areaKM2": 121320,
+    "population": 4561600
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8625e"
+    },
+    "name": "Equatorial Guinea",
+    "areaKM2": 28051,
+    "population": 535900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8625f"
+    },
+    "name": "Estonia",
+    "areaKM2": 45226,
+    "population": 1332900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86260"
+    },
+    "name": "Falkland Islands",
+    "areaKM2": 12173,
+    "population": 2970
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86261"
+    },
+    "name": "Ethiopia",
+    "areaKM2": 1127127,
+    "population": 73053300
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86262"
+    },
+    "name": "Faroe Islands",
+    "areaKM2": 1399,
+    "population": 46960
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86263"
+    },
+    "name": "Finland",
+    "areaKM2": 337030,
+    "population": 5223400
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86264"
+    },
+    "name": "France",
+    "areaKM2": 547030,
+    "population": 60656200
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86265"
+    },
+    "name": "French Guiana",
+    "areaKM2": 91000,
+    "population": 195500
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86266"
+    },
+    "name": "French Polynesia",
+    "areaKM2": 4167,
+    "population": 270500
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86267"
+    },
+    "name": "Gabon",
+    "areaKM2": 267667,
+    "population": 1389200
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86268"
+    },
+    "name": "Gambia",
+    "areaKM2": 11300,
+    "population": 1593300
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86269"
+    },
+    "name": "Fiji",
+    "areaKM2": 18270,
+    "population": 893400
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8626a"
+    },
+    "name": "El Salvador",
+    "areaKM2": 21040,
+    "population": 6704900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8626b"
+    },
+    "name": "Egypt",
+    "areaKM2": 1001450,
+    "population": 77505800
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8626c"
+    },
+    "name": "Germany",
+    "areaKM2": 357021,
+    "population": 82431400
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8626d"
+    },
+    "name": "Gibraltar",
+    "areaKM2": 6,
+    "population": 27880
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8626e"
+    },
+    "name": "Ghana",
+    "areaKM2": 239460,
+    "population": 21029900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8626f"
+    },
+    "name": "Greece",
+    "areaKM2": 131940,
+    "population": 10668400
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86270"
+    },
+    "name": "Great Britain (and Northern Ireland)",
+    "areaKM2": 244820,
+    "population": 60441500
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86271"
+    },
+    "name": "Greenland",
+    "areaKM2": 2166086,
+    "population": 56380
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86272"
+    },
+    "name": "Grenada",
+    "areaKM2": 344,
+    "population": 89500
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86273"
+    },
+    "name": "Georgia",
+    "areaKM2": 69700,
+    "population": 4677400
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86274"
+    },
+    "name": "Guadeloupe",
+    "areaKM2": 1780,
+    "population": 448700
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86275"
+    },
+    "name": "Guam",
+    "areaKM2": 549,
+    "population": 168600
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86276"
+    },
+    "name": "Guinea",
+    "areaKM2": 245857,
+    "population": 9467900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86277"
+    },
+    "name": "Guinea-Bissau",
+    "areaKM2": 36120,
+    "population": 1416000
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86278"
+    },
+    "name": "Guatemala",
+    "areaKM2": 108890,
+    "population": 14655200
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86279"
+    },
+    "name": "Guyana",
+    "areaKM2": 214970,
+    "population": 765300
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8627a"
+    },
+    "name": "Haiti",
+    "areaKM2": 27750,
+    "population": 8121600
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8627b"
+    },
+    "name": "Hong Kong",
+    "areaKM2": 1092,
+    "population": 6898700
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8627c"
+    },
+    "name": "Honduras",
+    "areaKM2": 112090,
+    "population": 6975200
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8627d"
+    },
+    "name": "Guernsey",
+    "areaKM2": 78,
+    "population": 65230
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8627e"
+    },
+    "name": "Iceland",
+    "areaKM2": 103000,
+    "population": 296700
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8627f"
+    },
+    "name": "Hungary",
+    "areaKM2": 93030,
+    "population": 10006800
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86280"
+    },
+    "name": "Iran",
+    "areaKM2": 1648000,
+    "population": 68017900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86281"
+    },
+    "name": "Indonesia",
+    "areaKM2": 1919440,
+    "population": 241973900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86282"
+    },
+    "name": "Iraq",
+    "areaKM2": 437072,
+    "population": 26074900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86283"
+    },
+    "name": "Ireland",
+    "areaKM2": 70280,
+    "population": 4015700
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86284"
+    },
+    "name": "Israel",
+    "areaKM2": 20770,
+    "population": 6276900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86285"
+    },
+    "name": "Italy",
+    "areaKM2": 301230,
+    "population": 58103000
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86286"
+    },
+    "name": "India",
+    "areaKM2": 3287590,
+    "population": 1080264400
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86287"
+    },
+    "name": "Jordan",
+    "areaKM2": 92300,
+    "population": 5759700
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86288"
+    },
+    "name": "Jersey",
+    "areaKM2": 116,
+    "population": 90810
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86289"
+    },
+    "name": "Jamaica",
+    "areaKM2": 10991,
+    "population": 2731800
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8628a"
+    },
+    "name": "Kenya",
+    "areaKM2": 582650,
+    "population": 33829600
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8628b"
+    },
+    "name": "Kazakhstan",
+    "areaKM2": 2717300,
+    "population": 15185800
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8628c"
+    },
+    "name": "Kiribati",
+    "areaKM2": 811,
+    "population": 103100
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8628d"
+    },
+    "name": "Korea (South)",
+    "areaKM2": 98480,
+    "population": 48422600
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8628e"
+    },
+    "name": "Korea (North)",
+    "areaKM2": 120540,
+    "population": 22912200
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8628f"
+    },
+    "name": "Japan",
+    "areaKM2": 377835,
+    "population": 127417200
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86290"
+    },
+    "name": "Kyrgyzstan",
+    "areaKM2": 198500,
+    "population": 5146300
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86291"
+    },
+    "name": "Kuwait",
+    "areaKM2": 17820,
+    "population": 2335600
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86292"
+    },
+    "name": "Laos",
+    "areaKM2": 236800,
+    "population": 6217100
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86293"
+    },
+    "name": "Lebanon",
+    "areaKM2": 10400,
+    "population": 3826000
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86294"
+    },
+    "name": "Lesotho",
+    "areaKM2": 30355,
+    "population": 1867000
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86295"
+    },
+    "name": "Latvia",
+    "areaKM2": 64589,
+    "population": 2290200
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86296"
+    },
+    "name": "Liberia",
+    "areaKM2": 111370,
+    "population": 3482200
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86297"
+    },
+    "name": "Libya",
+    "areaKM2": 1759540,
+    "population": 5765600
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86298"
+    },
+    "name": "Lithuania",
+    "areaKM2": 65200,
+    "population": 3596600
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86299"
+    },
+    "name": "Liechtenstein",
+    "areaKM2": 160,
+    "population": 33720
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8629a"
+    },
+    "name": "Luxembourg",
+    "areaKM2": 2586,
+    "population": 468600
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8629b"
+    },
+    "name": "Malawi",
+    "areaKM2": 118480,
+    "population": 12158900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8629c"
+    },
+    "name": "Macedonia",
+    "areaKM2": 25333,
+    "population": 2045300
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8629d"
+    },
+    "name": "Malaysia",
+    "areaKM2": 329750,
+    "population": 23953100
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8629e"
+    },
+    "name": "Madagascar",
+    "areaKM2": 587040,
+    "population": 18040300
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8629f"
+    },
+    "name": "Maldives",
+    "areaKM2": 300,
+    "population": 349100
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862a0"
+    },
+    "name": "Mali",
+    "areaKM2": 1240000,
+    "population": 12291500
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862a1"
+    },
+    "name": "Malta",
+    "areaKM2": 316,
+    "population": 398500
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862a2"
+    },
+    "name": "Man, Isle of",
+    "areaKM2": 572,
+    "population": 75050
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862a3"
+    },
+    "name": "Macau",
+    "areaKM2": 25,
+    "population": 449200
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862a4"
+    },
+    "name": "Mauritania",
+    "areaKM2": 1030700,
+    "population": 3086900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862a5"
+    },
+    "name": "Martinique",
+    "areaKM2": 1100,
+    "population": 432900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862a6"
+    },
+    "name": "Mauritius",
+    "areaKM2": 2040,
+    "population": 1230600
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862a7"
+    },
+    "name": "Mexico",
+    "areaKM2": 1972550,
+    "population": 106202900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862a8"
+    },
+    "name": "Micronesia, Federated States of",
+    "areaKM2": 702,
+    "population": 108100
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862a9"
+    },
+    "name": "Mayotte",
+    "areaKM2": 374,
+    "population": 193600
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862aa"
+    },
+    "name": "Marshall Islands",
+    "areaKM2": 181,
+    "population": 59070
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862ab"
+    },
+    "name": "Moldova",
+    "areaKM2": 33843,
+    "population": 4455400
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862ac"
+    },
+    "name": "Monaco",
+    "areaKM2": 2,
+    "population": 32410
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862ad"
+    },
+    "name": "Mozambique",
+    "areaKM2": 801590,
+    "population": 19406700
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862ae"
+    },
+    "name": "Mongolia",
+    "areaKM2": 1565000,
+    "population": 2791300
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862af"
+    },
+    "name": "Montserrat",
+    "areaKM2": 102,
+    "population": 9340
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862b0"
+    },
+    "name": "Namibia",
+    "areaKM2": 825418,
+    "population": 2030700
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862b1"
+    },
+    "name": "Morocco",
+    "areaKM2": 446550,
+    "population": 32725800
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862b2"
+    },
+    "name": "Nauru",
+    "areaKM2": 21,
+    "population": 13050
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862b3"
+    },
+    "name": "Nepal",
+    "areaKM2": 140800,
+    "population": 27676500
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862b4"
+    },
+    "name": "Myanmar",
+    "areaKM2": 678500,
+    "population": 42909500
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862b5"
+    },
+    "name": "Netherlands",
+    "areaKM2": 41526,
+    "population": 16407500
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862b6"
+    },
+    "name": "New Caledonia",
+    "areaKM2": 19060,
+    "population": 216500
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862b7"
+    },
+    "name": "Netherlands Antilles",
+    "areaKM2": 960,
+    "population": 220000
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862b8"
+    },
+    "name": "Nicaragua",
+    "areaKM2": 129494,
+    "population": 5465100
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862b9"
+    },
+    "name": "Nigeria",
+    "areaKM2": 923768,
+    "population": 128772000
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862ba"
+    },
+    "name": "Niue",
+    "areaKM2": 260,
+    "population": 2170
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862bb"
+    },
+    "name": "Norfolk Island",
+    "areaKM2": 35,
+    "population": 1830
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862bc"
+    },
+    "name": "Niger",
+    "areaKM2": 1267000,
+    "population": 11665900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862bd"
+    },
+    "name": "Northern Mariana Islands",
+    "areaKM2": 477,
+    "population": 80360
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862be"
+    },
+    "name": "Norway",
+    "areaKM2": 324220,
+    "population": 4593000
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862bf"
+    },
+    "name": "Oman",
+    "areaKM2": 212460,
+    "population": 3001600
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862c0"
+    },
+    "name": "New Zealand",
+    "areaKM2": 268680,
+    "population": 4035500
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862c1"
+    },
+    "name": "Palestinian Territories",
+    "areaKM2": 6220,
+    "population": 3761900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862c2"
+    },
+    "name": "Panama",
+    "areaKM2": 78200,
+    "population": 3039200
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862c3"
+    },
+    "name": "Papua New Guinea",
+    "areaKM2": 462840,
+    "population": 5545300
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862c4"
+    },
+    "name": "Paraguay",
+    "areaKM2": 406750,
+    "population": 6347900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862c5"
+    },
+    "name": "Palau",
+    "areaKM2": 458,
+    "population": 20300
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862c6"
+    },
+    "name": "Peru",
+    "areaKM2": 1285220,
+    "population": 27925600
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862c7"
+    },
+    "name": "Philippines",
+    "areaKM2": 300000,
+    "population": 87857500
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862c8"
+    },
+    "name": "Pitcairn",
+    "areaKM2": 47,
+    "population": 46
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862c9"
+    },
+    "name": "Poland",
+    "areaKM2": 312685,
+    "population": 38635100
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862ca"
+    },
+    "name": "Portugal",
+    "areaKM2": 92391,
+    "population": 10566200
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862cb"
+    },
+    "name": "Pakistan",
+    "areaKM2": 803940,
+    "population": 162419900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862cc"
+    },
+    "name": "Reunion",
+    "areaKM2": 2517,
+    "population": 776900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862cd"
+    },
+    "name": "Russia",
+    "areaKM2": 17075200,
+    "population": 143420300
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862ce"
+    },
+    "name": "Romania",
+    "areaKM2": 237500,
+    "population": 22330000
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862cf"
+    },
+    "name": "Qatar",
+    "areaKM2": 11437,
+    "population": 863100
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862d0"
+    },
+    "name": "Rwanda",
+    "areaKM2": 26338,
+    "population": 8440800
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862d1"
+    },
+    "name": "Saint Helena",
+    "areaKM2": 410,
+    "population": 7460
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862d2"
+    },
+    "name": "Puerto Rico",
+    "areaKM2": 9104,
+    "population": 3916600
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862d3"
+    },
+    "name": "Saint Kitts \u0026 Nevis",
+    "areaKM2": 261,
+    "population": 38960
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862d4"
+    },
+    "name": "Saint Pierre \u0026 Miquelon",
+    "areaKM2": 242,
+    "population": 7010
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862d5"
+    },
+    "name": "Saint Lucia",
+    "areaKM2": 616,
+    "population": 166300
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862d6"
+    },
+    "name": "Samoa",
+    "areaKM2": 2944,
+    "population": 177300
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862d7"
+    },
+    "name": "San Marino",
+    "areaKM2": 61,
+    "population": 28880
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862d8"
+    },
+    "name": "Sao Tome \u0026 Principe",
+    "areaKM2": 1001,
+    "population": 187400
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862d9"
+    },
+    "name": "Saudi Arabia",
+    "areaKM2": 1960582,
+    "population": 26417600
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862da"
+    },
+    "name": "Senegal",
+    "areaKM2": 196190,
+    "population": 11126800
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862db"
+    },
+    "name": "Serbia \u0026 Montenegro",
+    "areaKM2": 102350,
+    "population": 10829200
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862dc"
+    },
+    "name": "Saint Vincent (\u0026 the Grenadines)",
+    "areaKM2": 389,
+    "population": 117500
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862dd"
+    },
+    "name": "Seychelles",
+    "areaKM2": 455,
+    "population": 81190
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862de"
+    },
+    "name": "Sierra Leone",
+    "areaKM2": 71740,
+    "population": 6017600
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862df"
+    },
+    "name": "Slovakia",
+    "areaKM2": 48845,
+    "population": 5431400
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862e0"
+    },
+    "name": "Solomon Islands",
+    "areaKM2": 28450,
+    "population": 538000
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862e1"
+    },
+    "name": "Slovenia",
+    "areaKM2": 20273,
+    "population": 2011100
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862e2"
+    },
+    "name": "Somalia",
+    "areaKM2": 637657,
+    "population": 8591600
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862e3"
+    },
+    "name": "South Africa",
+    "areaKM2": 1219912,
+    "population": 44344100
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862e4"
+    },
+    "name": "Spain",
+    "areaKM2": 504782,
+    "population": 40341500
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862e5"
+    },
+    "name": "Sri Lanka",
+    "areaKM2": 65610,
+    "population": 20064800
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862e6"
+    },
+    "name": "Singapore",
+    "areaKM2": 693,
+    "population": 4425700
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862e7"
+    },
+    "name": "Sudan",
+    "areaKM2": 2505810,
+    "population": 40187500
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862e8"
+    },
+    "name": "Sweden",
+    "areaKM2": 449964,
+    "population": 9001800
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862e9"
+    },
+    "name": "Swaziland",
+    "areaKM2": 17363,
+    "population": 1173900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862ea"
+    },
+    "name": "Switzerland",
+    "areaKM2": 41290,
+    "population": 7489400
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862eb"
+    },
+    "name": "Suriname",
+    "areaKM2": 163270,
+    "population": 438100
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862ec"
+    },
+    "name": "Svalbard",
+    "areaKM2": 62049,
+    "population": 2700
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862ed"
+    },
+    "name": "Syria",
+    "areaKM2": 185180,
+    "population": 18448800
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862ee"
+    },
+    "name": "Taiwan (Republic of China)",
+    "areaKM2": 35980,
+    "population": 22894400
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862ef"
+    },
+    "name": "Tanzania",
+    "areaKM2": 945087,
+    "population": 36766400
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862f0"
+    },
+    "name": "Tajikistan",
+    "areaKM2": 143100,
+    "population": 7163500
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862f1"
+    },
+    "name": "Tonga",
+    "areaKM2": 748,
+    "population": 112400
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862f2"
+    },
+    "name": "Togo",
+    "areaKM2": 56785,
+    "population": 5681500
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862f3"
+    },
+    "name": "Thailand",
+    "areaKM2": 514000,
+    "population": 65444400
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862f4"
+    },
+    "name": "Trinidad \u0026 Tobago",
+    "areaKM2": 5128,
+    "population": 1088600
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862f5"
+    },
+    "name": "Tokelau",
+    "areaKM2": 10,
+    "population": 1410
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862f6"
+    },
+    "name": "Tunisia",
+    "areaKM2": 163610,
+    "population": 10075000
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862f7"
+    },
+    "name": "Turks \u0026 Caicos Islands",
+    "areaKM2": 430,
+    "population": 20560
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862f8"
+    },
+    "name": "Turkey",
+    "areaKM2": 780580,
+    "population": 69660600
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862f9"
+    },
+    "name": "Turkmenistan",
+    "areaKM2": 488100,
+    "population": 4952100
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862fa"
+    },
+    "name": "Uganda",
+    "areaKM2": 236040,
+    "population": 27269500
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862fb"
+    },
+    "name": "Ukraine",
+    "areaKM2": 603700,
+    "population": 47425300
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862fc"
+    },
+    "name": "United States of America",
+    "areaKM2": 9629091,
+    "population": 295734100
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862fd"
+    },
+    "name": "United Arab Emirates",
+    "areaKM2": 82880,
+    "population": 2563200
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862fe"
+    },
+    "name": "Uruguay",
+    "areaKM2": 176220,
+    "population": 3415900
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f862ff"
+    },
+    "name": "Uzbekistan",
+    "areaKM2": 447400,
+    "population": 26851200
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86300"
+    },
+    "name": "Vanuatu",
+    "areaKM2": 12200,
+    "population": 205800
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86301"
+    },
+    "name": "Vatican City",
+    "areaKM2": 1,
+    "population": 920
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86302"
+    },
+    "name": "Vietnam",
+    "areaKM2": 329560,
+    "population": 83535600
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86303"
+    },
+    "name": "Tuvalu",
+    "areaKM2": 26,
+    "population": 11640
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86304"
+    },
+    "name": "Wallis \u0026 Futuna",
+    "areaKM2": 274,
+    "population": 16030
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86305"
+    },
+    "name": "Western Sahara",
+    "areaKM2": 266000,
+    "population": 273000
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86306"
+    },
+    "name": "Yemen",
+    "areaKM2": 527970,
+    "population": 20727100
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86307"
+    },
+    "name": "Venezuela",
+    "areaKM2": 912050,
+    "population": 25375300
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86308"
+    },
+    "name": "Zambia",
+    "areaKM2": 752614,
+    "population": 11261800
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f86309"
+    },
+    "name": "Virgin Islands of the US",
+    "areaKM2": 352,
+    "population": 108700
+  },
+  {
+    "_id": {
+      "$oid": "58060596392c9a92f2f8630a"
+    },
+    "name": "Zimbabwe",
+    "areaKM2": 390580,
+    "population": 12747000
+  }
+]
