@@ -1,4 +1,4 @@
-module.exports = [{"_id":{"$oid":"58060596392c9a92f2f86222"},"name":"American Samoa","areaKM2":199,"population":57880},
+export const data = [{"_id":{"$oid":"58060596392c9a92f2f86222"},"name":"American Samoa","areaKM2":199,"population":57880},
 {"_id":{"$oid":"58060596392c9a92f2f86223"},"name":"Afghanistan","areaKM2":647500,"population":29929000},
 {"_id":{"$oid":"58060596392c9a92f2f86224"},"name":"Andorra","areaKM2":468,"population":70550},
 {"_id":{"$oid":"58060596392c9a92f2f86225"},"name":"Angola","areaKM2":1246700,"population":11190800},
@@ -231,4 +231,4 @@ module.exports = [{"_id":{"$oid":"58060596392c9a92f2f86222"},"name":"American Sa
 {"_id":{"$oid":"58060596392c9a92f2f86308"},"name":"Zambia","areaKM2":752614,"population":11261800},
 {"_id":{"$oid":"58060596392c9a92f2f86309"},"name":"Virgin Islands of the US","areaKM2":352,"population":108700},
 {"_id":{"$oid":"58060596392c9a92f2f8630a"},"name":"Zimbabwe","areaKM2":390580,"population":12747000}
-]
+];
