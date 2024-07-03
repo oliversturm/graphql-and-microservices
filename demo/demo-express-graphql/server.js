@@ -26,16 +26,22 @@ const resolvers = {
   },
 };
 
-// This block implements the extra processing included
-// in the schema.
-//
-//
+// // This block implements the extra processing necessary to fully support
+// // the schema.
+// //
+// //
 // const areaPerPerson = (c) => () => c.areaKM2 / c.population;
 //
+// // fields is an object with some functions like `areaPerPerson`
 // const includeFields = (fields) => {
+//   // applyAll accepts a data object of the original shape and
+//   // applies all the functions in the fields object so
+//   // that they can retrieve required fields from the data object
 //   const applyAll = (i) => mapValues((f) => f(i))(fields);
-//   const includeField = (i) => ({ ...i, ...applyAll(i) });
-//   return map((i) => includeField(i));
+//   // includeFields accepts a data object of the original shape and
+//   // adds the fields from the fields objects
+//   const includeFields = (i) => ({ ...i, ...applyAll(i) });
+//   return map((i) => includeFields(i));
 // };
 //
 // const filterNames = (sns) => (data) =>
@@ -49,6 +55,9 @@ const resolvers = {
 //
 // const resolvers = {
 //   Query: {
+//     // For illustration we have a processing pipeline which
+//     // handles the extra fields as well as the field filtering
+//     // feature.
 //     countries: (_, { searchNames }) =>
 //       compose([process, filterNames(searchNames)])(data),
 //   },
